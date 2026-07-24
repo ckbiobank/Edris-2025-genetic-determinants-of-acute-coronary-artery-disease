@@ -2,12 +2,12 @@
 (Edris et al, GIGASCIENCE 2026)**
 
 This repository outlines the design of statistical analyses required to obtain the results presented in Concordance of genetic determinants of acute coronary artery disease between European and Chinese populations (Edris et al, GIGASCIENCE 2026). The aims of this study were to: (i) compare the associations of individual SNPs for acute CAD discovered in European ancestry populations in CARDIOGRAMplusC4D with acute CAD cases in Chinese; (ii) assess the concordance of associations of acute CAD SNPs discovered in Europeans for acute CAD, chronic IHD, non-IHD cardiac conditions and stroke types using a genetic score combining such European ancestry SNPs for CAD (GS-CAD) in a nested case-control studies in Chinese individuals in CKB; (iii) and compare associations of fifths of GS-CAD scores with levels of LDL-C, systolic blood pressure (SBP), body mass index (BMI) and plasma proteomics in controls with GWAS data in CKB. 
-This codes clarifies all the steps required to undertake analyses required for all three aims, and outputs the results presented in the paper per aim.
+This codes clarifies all the steps required to undertake analyses for all three aims, and outputs the results presented in the paper per aim.
 
 Prerequisites include access to the relevant CKB data files and an R program (the script installs the necessary libraries). The script can be run directly using Rscript if the relevant data files are available.
 
 Expected input format
-The input files are China Kadoorie biobank database files, the expected formats/column names align with the variable names available on the china kadoorie biobank showcase available at 
+The input files are China Kadoorie biobank database files, the expected formats/column names align with the variable names available on the CKB data showcase available at 
 https://www.ckbiobank.org/datashowcase/18.01/showcase_contents.html 
 Briefly, the script requires access to a CKB questionnaire data file, CKB data linkage file, CKB endpoints file, and CKB proteomics data files
 CKB data access can be obtained for bona fide researchers by application https://www.ckbiobank.org/data-access/data-access-procedures 
